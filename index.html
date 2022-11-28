@@ -69,6 +69,39 @@
                   <use href="./images/icon.svg#icon-close"></use>
                 </svg>
               </button>
+              <b class="title-modal">Залиште свої дані, ми вам передзвонимо</b>
+              <form action="form" autocomplete="on">
+                <div class="form-field">
+                  <label class="input-title" for="name">Ім'я</label>
+                  <input class="input" type="text" name="name" id="name" />
+                </div>
+                <div class="form-field">
+                  <label class="input-title" for="tel">Телефон</label>
+                  <input class="input" type="tel" name="tel" id="tel" />
+                </div>
+                <div class="form-field">
+                  <label class="input-title" for="mail">Пошта</label>
+                  <input class="input" type="mail" name="mail" id="mail" />
+                </div>
+                <div class="form-field">
+                  <label class="input-title" for="comment">Коментар</label>
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    rows="5"
+                    placeholder="Введіть текст"
+                  ></textarea>
+                </div>
+                <div class="form-agreement">
+                  <input type="checkbox" name="agreement" id="agreement" />
+                  <label for="agreement"
+                    >Погоджуюся з розсилкою та приймаю
+                    <a class="link" href="">Умови договору</a></label
+                  >
+                </div>
+
+                <button class="submit btn" type="button">Відправити</button>
+              </form>
             </div>
           </div>
         </div>
