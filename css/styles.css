@@ -852,7 +852,7 @@ textarea:focus {
   padding: 12px 52px 54px 28px;
 }
 .title-modal {
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
