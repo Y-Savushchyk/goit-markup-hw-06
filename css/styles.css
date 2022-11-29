@@ -601,7 +601,7 @@ p {
 
 .btn-close:hover,
 .btn-close:focus {
-  border-color: var(--accent-color);
+  /*border-color: var(--accent-color);*/
   fill: var(--accent-color);
 }
 
