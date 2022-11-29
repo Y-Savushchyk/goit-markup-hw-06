@@ -335,6 +335,7 @@ footer .logo {
 .footer-input:focus {
   border-color: var(--accent-color);
 }
+
 .footer-btn-icon {
   position: absolute;
   top: 13px;
@@ -881,7 +882,7 @@ textarea:focus {
   letter-spacing: 0.01em;
 }
 .input {
-  padding-left: 30px;
+  padding-left: 42px;
   height: 40px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
