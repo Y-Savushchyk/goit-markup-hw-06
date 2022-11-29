@@ -101,13 +101,21 @@
                     placeholder="Введіть текст"
                   ></textarea>
                 </div>
-                <div class="form-agreement">
-                  <input type="checkbox" name="agreement" id="agreement" placeholder=" " />
-                  <label for="agreement"
-                    >Погоджуюся з розсилкою та приймаю
-                    <a class="link" href="">Умови договору</a></label
-                  >
-                </div>
+                <label class="agreement"
+                  ><input
+                    class="checkbox"
+                    type="checkbox"
+                    name="agreement"
+                    id="agreement"
+                    placeholder=" "
+                  />
+                  <span class="checkbox-icon">
+                    <svg class="border-icon" width="16" height="15">
+                      <use href="./images/icon.svg#icon-border"></use>
+                    </svg> </span
+                  >Погоджуюся з розсилкою та приймаю
+                  <a class="link" href="">Умови договору</a></label
+                >
 
                 <button class="submit btn" type="submit">Відправити</button>
               </form>
