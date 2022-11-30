@@ -974,7 +974,7 @@ textarea:focus {
   border: 0;
   padding: 0;
 }
-.checkbox:checked + .checkbox-icon {
+/*.checkbox:checked + .checkbox-icon {
   background-image: url('../images/chek.svg');
 
   background-size: contain;
@@ -983,7 +983,7 @@ textarea:focus {
 
   background-size: contain;
   border-radius: 2px;
-}
+}*/
 .checkbox:checked + .checkbox-icon > .border-icon {
   position: absolute;
   width: 1px;
@@ -991,6 +991,12 @@ textarea:focus {
   margin: -1px;
   border: 0;
   padding: 0;
+}
+.checkbox + .checkbox-icon > .active-icon {
+  opacity: 0;
+}
+.checkbox:checked + .checkbox-icon > .active-icon {
+  opacity: 1;
 }
 
 .checkbox-icon {
